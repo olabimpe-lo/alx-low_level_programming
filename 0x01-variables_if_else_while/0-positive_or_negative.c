@@ -23,10 +23,10 @@ int main(void)
 
 	scanf("%d", &n);
 	if ( n > 0)
-		printf("is positive");
+		printf("is positive\n", n);
 	else if (n == 0)
-		printf("is zero");
+		printf("is zero\n", n);
 	else (n < 0)
-		printf("is negative");
+		printf("is negative\n", n);
 	return (0);
 }

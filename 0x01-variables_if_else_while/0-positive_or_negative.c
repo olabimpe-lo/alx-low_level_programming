@@ -22,14 +22,11 @@ int main(void)
 	/* your code goes there */
 
 	scanf("%d", &n);
-	if ( n > 0){
+	if ( n > 0)
 		printf("is positive");
-	}
-	else if (n == 0){
+	else if (n == 0)
 		printf("is zero");
-	}
-	else (n <= 0){
+	else (n < 0)
 		printf("is negative");
-	}
 	return (0);
 }

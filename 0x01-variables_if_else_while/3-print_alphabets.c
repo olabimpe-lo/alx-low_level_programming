@@ -11,7 +11,7 @@
 int main(void)
 {
 	int e, f;
-	
+
 	e = 97;
 	f = 65;
 

@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
-/** main - print the last digit of the number stored in the variable
+/**
+ * main - print last digit in random number
+ *
+ * Decription: print last digit in random number
  *
  * Return - Always 0 (Success)
  */

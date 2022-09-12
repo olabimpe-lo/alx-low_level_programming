@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int e, f, g, h;
+	int e, f, g, i;
 
 	e = 48;
 	while (e < 58)
@@ -18,25 +18,25 @@ int main(void)
 		f = 48;
 		while (f < 48)
 		{
-			h = f + 1;
+			i = f + 1;
 			g = e;
 			while (g < 58)
 			{
-				while (h < 58)
+				while (i < 58)
 				{
 					putchar(e);
 					putchar(f);
 					putchar(32);
 					putchar(g);
-					putchar(h);
-					if (e < 57 || f < 56 || g < 57 || h < 57)
+					putchar(i);
+					if (e < 57 || f < 56 || g < 57 || i < 57)
 					{
 						putchar(44);
 						putchar(32);
 					}
-					h++;
+					i++;
 				}
-				h = 48;
+				i = 48;
 				g++;
 			}
 			f++;

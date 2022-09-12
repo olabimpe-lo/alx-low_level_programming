@@ -1,1 +1,1 @@
-Introductio to variables, if, else, while in Cprogramming
+Introduction to variables, if, else, while in Cprogramming

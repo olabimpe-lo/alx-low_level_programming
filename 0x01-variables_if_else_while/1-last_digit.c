@@ -4,9 +4,6 @@
 
 /** main - print the last digit of the number stored in the variable
  *
- * Description - Assign a random number to a variable each 
- * time it is executed
- *
  * Return - Always 0 (Success)
  */
 

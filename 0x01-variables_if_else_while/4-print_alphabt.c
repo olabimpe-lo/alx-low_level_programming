@@ -6,7 +6,6 @@
  * Description: print the letters of the alphabets except e and q
  *
  * Return: Always 0 (Success)
- *
  */
 
 int main(void)
@@ -15,7 +14,7 @@ int main(void)
 
 	while (f < 123)
 	{
-		if (f != 101 && f ! = 113)
+		if (f != 101 && f != 113)
 		{
 			putchar(f);
 		}

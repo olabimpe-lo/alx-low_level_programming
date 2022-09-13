@@ -5,7 +5,7 @@
  *
  * n:number
  *
- * Return 1 (if n > 0) , return 0 (if n > 1) , return -1 (if n < 0)
+ * Return: 1 (if n > 0) , 0 (if n == 0) , -1 (if n < 0)
  */
 
 int print_sign(int n)
@@ -20,7 +20,7 @@ int print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else (n < 0);
+	else 
 	{
 		_putchar('-');
 		return (-1);

@@ -2,13 +2,13 @@
 /**
  * main - print alphabet
  *
- * Return: 0 
+ * Return: void
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char letter = 'a';
-	for (letter <= 'z')
+	while (letter <= 'z')
 	{ 
 		_putchar(letter);
 		letter++;

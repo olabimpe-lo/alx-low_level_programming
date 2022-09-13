@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * print int _islower(int c);
+ * print int _islower(int c)
+ *
+ * c: c is an ASCII 
  *
  * Return: 0
  */

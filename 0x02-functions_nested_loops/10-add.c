@@ -3,8 +3,8 @@
 /**
  * add - adds two integers
  *
- * m: The first integer
- * n: The second integer
+ * @m: The first integer
+ * @n: The second integer
  *
  * Return: sum of integers
  */

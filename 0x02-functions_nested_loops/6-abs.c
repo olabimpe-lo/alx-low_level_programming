@@ -3,7 +3,7 @@
 /**
  * _abs - compute absolute value of an integer
  *
- * n - is an integer
+ * n: is an integer
  *
  * Return: integer
  */
@@ -15,7 +15,7 @@ int _abs(int n)
 		return (n);
 	}
 	else if (n < 0)
-	{ 
+	{
 		return (-n);
 	}
 	else

@@ -5,7 +5,7 @@
  *
  * n - is an integer
  *
- * Return: 0
+ * Return: integer
  */
 
 int _abs(int n)

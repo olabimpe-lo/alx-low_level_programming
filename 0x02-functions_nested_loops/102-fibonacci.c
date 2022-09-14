@@ -14,13 +14,13 @@ int main(void)
 	
 	sum = 0;
 	first = 0;
-	second = 1
+	second = 1;
 	count = 0;
 
 	while (count < 40)
 	{
 		sum = first + second;
-		print("%li, ", sum);
+		printf("%li, ", sum);
 		first = second;
 		second = sum;
 		

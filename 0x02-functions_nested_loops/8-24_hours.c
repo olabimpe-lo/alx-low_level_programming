@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Jack_Bauer - print seconds, minute, and hour 
+ * jack_bauer - print seconds, minute, and hours 
  *
  * Return: current time of the day
  */

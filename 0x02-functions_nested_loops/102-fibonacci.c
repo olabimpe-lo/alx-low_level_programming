@@ -17,7 +17,7 @@ int main(void)
 	second = 1;
 	count = 0;
 
-	while (count < 40)
+	while (count < 49)
 	{
 		sum = first + second;
 		printf("%li, ", sum);

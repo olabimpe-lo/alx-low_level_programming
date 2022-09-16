@@ -11,13 +11,26 @@ void more_numbers(void)
 
 	n = '0';
 	limit = '9';
+	repeat = 0;
 
-	for (n = '0'; n <= '14'; n++)
+	for (line = 0; line <= 10; line++)
 	{
-		while (line = 0; line < 10; line++)
+		while (repeat < 2)
 		{
-			_putchar(n);
+			while (n <= limit)
+			{
+				if (limit == '4')
+					_putchar('1');
+				_putchar(n);
+				n++;
+			}
+			repeat++;
+			limit = '4';
+			n = '0';
 		}
 		_putchar('\n');
+		repeat = 0;
+		n = '0';
+		limit = '9';
 	}
-}
+}	

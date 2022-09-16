@@ -4,7 +4,7 @@
  * more_functions_nested_loops - prints a square
  * @size: length and breadth of the square
  *
- * Return: size
+ * Return: void
  */
 
 void print_square(int size)
@@ -28,4 +28,5 @@ void print_square(int size)
 	{
 		_putchar('\n');
 	}
+
 }

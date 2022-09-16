@@ -7,7 +7,7 @@
 
 void more_numbers(void)
 {
-	int n, line, limit;
+	int n, line, limit, repeat;
 
 	n = '0';
 	limit = '9';

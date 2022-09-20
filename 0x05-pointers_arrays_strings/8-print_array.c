@@ -6,17 +6,17 @@
  * @a : represents array
  * @n : represents integer
  * Return : void
- * */
+ */
 
 void print_array(int *a, int n)
 {
 	int m;
-	
+
 	if (n > 0)
 	{
 		for (m = 0; n > m; m++)
 		{
-			if(m != n - 1)
+			if (m != n - 1)
 			{
 				printf("%d, ", a[m]);
 			}
@@ -25,6 +25,7 @@ void print_array(int *a, int n)
 				printf("%d", a[m]);
 			}
 		}
-		printf("\n");
+		
 	}
+	printf("\n");
 }
